@@ -31,7 +31,7 @@
   <div class="carousel-inner">
     {% for filename in thalassa_images %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{% static "images/kostis/Thalassa" %}{{ filename }}" 
+        <img src="{% static "images/kostis/Thalassa/" %}{{ filename }}" 
              class="d-block w-100" 
              style="height: 100vh; object-fit: contain"
              alt="Thalassa Image {{ forloop.counter }}">
@@ -91,7 +91,7 @@
   <div class="carousel-inner">
     {% for filename in helios_images %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{% static 'images/kostis/Helios' %}{{ filename }} " 
+        <img src="{% static 'images/kostis/Helios/' %}{{ filename }} " 
              class="d-block w-100" 
              style="height: 100vh; object-fit: contain"
              alt="Helios Image {{ forloop.counter }}">
@@ -157,7 +157,7 @@
       <div class="carousel-inner">
         {% for filename in garden_images %}
           <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <img src="{% static 'images/kostis/garden' %}{{ filename }}" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Garden Image {{ forloop.counter }}">
+            <img src="{% static 'images/kostis/garden/' %}{{ filename }}" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Garden Image {{ forloop.counter }}">
           </div>
         {% endfor %}
       </div>
