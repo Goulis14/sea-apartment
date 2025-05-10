@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-va2dy@(sv@*@um44nibct96s5sz43jd*8u^=2$(#8ix$6s-ba&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sea-apartment.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
