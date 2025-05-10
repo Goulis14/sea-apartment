@@ -1,0 +1,46 @@
+  <nav class="untree_co--site-nav js-sticky-nav">
+        <div class="container d-flex align-items-center">
+          <div class="logo-wrap">
+            <a href="{% url 'index' %}" class="untree_co--site-logo">Sea Apartment</a>
+          </div>
+          <div class="site-nav-ul-wrap text-center d-none d-lg-block">
+            <ul class="site-nav-ul js-clone-nav">
+              <li class="active"><a href="{% url 'index' %}">Home</a></li>
+              <li class="has-children">
+                <a href="{% url 'rooms' %}">Rooms</a>
+                <ul class="dropdown">
+                  <li>
+                    <a href="{% url 'rooms' %}#thalassa">Thalassa Suite</a>
+                  </li>
+                  <li>
+                    <a href="{% url 'rooms' %}#helios">Helios Residence</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="{% url 'amenities' %}">Amenities</a></li>
+              <li><a href="{% url 'gallery' %}">Gallery</a></li>
+              <li><a href="{% url 'about' %}">About Us</a></li>
+              <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+          </div>
+          <div class="icons-wrap text-md-right">
+
+            <ul class="icons-top d-none d-lg-block">
+{#              <li class="mr-4">#}
+{#                <a href="#" class="js-search-toggle"><span class="icon-search2"></span></a>#}
+{#              </li>#}
+              <li>
+                <a href="https://wa.me/306978798911"><span class="fab fa-whatsapp"></span></a>
+              </li>
+              <li>
+                <a href="viber://chat?number=+306978798911"><span class="fab fa-viber"></span></a>
+              </li>
+                       </ul>
+
+            <!-- Mobile Toggle -->
+            <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </nav>
