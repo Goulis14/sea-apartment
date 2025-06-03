@@ -15,4 +15,5 @@ urlpatterns = [
     path('subscribe/', subscribe_newsletter, name='subscribe_newsletter'),
     path('newsletter-thank-you/', views.newsletter_thank_you, name='newsletter_thank_you'),
 
+
 ]
